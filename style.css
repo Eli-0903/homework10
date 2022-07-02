@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    padding: 50px;
+}
+
+p{
+    background-color: blue;
+}
+
+.who-we-are{
+    background-color: red;
+    padding: 25px;
+    color: aqua;
+}
+
+.page-text{
+    background-color: green;
+    border: solid;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
